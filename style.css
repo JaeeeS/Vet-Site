@@ -1,0 +1,837 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li img{
+    width: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+li:hover{
+    background: rgb(255,255,255,0.4)
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background: #8DC3A7;
+}
+
+.btn:hover{
+    background: #8DC3A7;
+}
+.header{
+    background: #358873;
+    color: white;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+    float: right;
+}
+
+.headInfo {
+  background-image: url("images/dog2.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caption {
+    position: absolute;
+    top: 30%;
+    width:450px;
+    margin-left: 5%;
+    text-align: center;
+    color: #000;
+    background: rgb(255,255,255,0.5)
+}
+.caption span.border {
+    color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.content hr{
+    height: 5px;
+    color: #207567;
+    background: #207567;
+    width: 300px;
+    margin: auto;
+}
+.content{
+    margin:40px 20px;
+    padding: 20px;
+    text-align: center;  
+}
+.content h1{
+    font-size: 6px;
+}
+.content p{
+    color: black;
+    text-align: justify;
+}
+
+.content h1{
+    font-size: 60px;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding:5px ;
+}
+.column:hover{
+    transform: translateY(-5px);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.row hr{
+    width: 20px;
+}
+.row img{
+    height: 200px;
+    width:100%;
+}
+.in{
+    background: rgba(141, 195, 167, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.column p{
+    max-height: 200px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.column .in a{
+    color: black;
+}
+.start{
+    margin: 0;
+}
+
+.col2{
+    width: 50%;
+    padding: 30px;
+    height: 400px
+}
+.col2 p{
+    text-align: center;
+}
+.right{
+    margin-top: 50px;
+}
+
+
+.col2 img{
+    height: 250px;
+}
+
+/*---disclaimer---*/
+.disclaimer a{
+    color: blue
+}
+.disclaimer{
+    background-color: antiquewhite;
+    height: 55px;
+    padding: 10px;
+    display: none
+}
+
+
+
+/*--footer---*/
+.footer{
+    background: #000;;
+    color: #8a8a8a;;
+    height: 70px;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+
+/*---services page---*/
+.service{
+    text-align: left;
+    padding: 5px;
+    background-image: url(images/cowprint.jpg)
+}
+.service .content{
+    margin: 50px 100px;
+    padding: 20px;
+    padding-top: 0;
+    background: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    box-shadow: 5px 10px #6baf92;
+}
+
+.service .title{
+    text-align: center;
+}
+.service .info hr{
+    width: 100%;
+}
+.service .info{
+    margin: 15px;
+    background: white;
+}
+
+.service .col2 .img{
+    height: auto;
+}
+.service .title{
+    font-size: 30px
+}
+.service .col2{
+    height: auto;
+}
+.service .row{
+    margin-top: 0;
+    
+}
+.service p{
+    text-align: justify;
+}
+.info{ 
+    padding: 10px;
+    border-style: solid;
+    border-color: rgba(53, 136, 115, 1);
+    border-radius: 10px;
+    box-shadow: 5px 10px #B4D6C1;
+    margin: 20px 0;
+}
+.service .col3{
+    width: 33%;
+    padding:20px 50px;
+    
+}
+
+.col3 img{
+    border-radius: 50%;
+    border: 10px solid #dfeae2;
+}
+/*---account---*/
+/*account*/
+.aMI a{
+    color:#207567;
+}
+.account small{
+    color: green;
+}
+.account-page{
+    padding: 70px 0;
+    background: radial-gradient(#fff ,#8DC3A7);  
+}
+.account-page img{
+    height: 100%;
+}
+.form-container{
+    background: #fff;
+    width:300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);   
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+}
+form .btn: focus{
+    outline: none;
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{ 
+    font-size: 12px;
+    
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #207567;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+.btn{
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background: #207567;
+    cursor: pointer;
+}
+.account a{
+    color: #207567;
+}
+
+
+/*----profile-----*/
+.profile{
+    background-image:url(images/card.jpg);
+}
+.profile .container{
+    max-width: fit-content;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+}
+.box{
+    margin: 50px;
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    display: relative;
+    width: 500px;
+    background: rgba(255,255,255,0.9);
+    
+}
+.profile .no{
+    width: 450px;
+    background-image: url(images/cats.jpg);
+    padding: 22%;
+    margin: 20% auto;
+    text-align: center;
+}
+.profile table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.profile th,td{
+    width: 50%;
+    text-align: center;  
+}
+.profile td{
+    font-weight: 500;
+    text-align: center;
+}
+.box hr{
+    width: 100%;
+}
+.pets img{
+    height: 400px;
+    bottom: 0;
+}
+.pets button{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    background: #207567;
+    cursor: pointer;
+}
+.profile th{
+    background: green;
+    color: white;
+}
+.profile td{
+    border-bottom: 3px solid green;
+}
+.log img{
+    width: 50px;
+    float: right;
+    margin: 30px;
+}
+.log a{
+    text-decoration: none
+}
+/*---appointment-page---*/
+.appointment{
+    background-image: url(images/cat.jpg);
+}
+.appointment .container{
+    padding: 3%;
+}
+
+.appointment .info{
+    background:rgba(255,255,255,0.9);
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.appointment textarea{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+.appointment input{
+    margin-bottom: 10px;
+}
+.appointment .box{
+    background: white;
+    width: 80%;
+    margin: 10px auto;
+}
+.appointment .btn{
+    margin-top: 5px;
+    border: none
+}
+.view{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.view .btn{
+    float: right;
+    padding: 4px;
+}
+
+/*--appointments-page---*/
+.apt{
+    width: 100%;
+}
+.apt table{
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+}
+.apt td{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 100px;
+   border-left:solid #B4D6C1 ;
+    border-bottom:solid #358873;
+    font-weight: 500;
+}
+.appointment .set{
+    background-image: url(images/pet.png);
+    
+}
+
+.set .appointment-page{
+    height: 500px;
+}
+
+/*----appointment-list---*/
+.appointment-list{
+    padding: 20px 0;
+    background-image: url(images/cat.jpg);
+    min-height: 90vh
+}
+.appointment-list .container{
+    width: 70%;
+    border-radius: 10px;
+    border: solid green;
+    padding: 20px;
+    margin: auto;
+    background: rgba(255,255,255,0.9);
+}
+.appointment-list .col2{
+    margin: auto;
+}
+.appointment-list .bo{
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    border: 2px solid gray;
+}
+.appointment-list table{
+    width: 100%;
+}
+.appointment-list td{
+    font-weight:500 ;
+    text-align: center;
+    border: none
+}
+.appointment-list h3{
+    text-align: center;
+}
+.appointment-list hr{
+    width:100%;
+}
+.appointment-list .tabcontent{
+    height:350px;
+    overflow: auto;
+    background: white;
+}
+.appointment-list button{
+    float:right;
+    width:150px;
+    padding: 5px;
+    border: none;
+}
+/*----Denied----*/
+.denied{
+    background-image: url(images/paw.png);
+    height: 90vh;
+}
+.denied .box{
+    margin: auto;
+    height: 400px;
+    background: white;
+}
+.denied p{
+    text-align: center;
+}
+.denied img{
+    height: 200px;
+}
+.denied .btn{
+    width: 100px;
+    margin: 20px;
+}
+.denied .container{
+    padding: 40px;
+    text-align: center;
+}
+
+/*---Admin-----*/
+.admin{
+    background-image: url(images/all.jpg);
+    padding: 20px;
+    min-height: 90vh
+}
+.admin .container{
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+    background: white;
+}
+.admin .con{
+    margin: auto;
+    widows: 400px;
+    
+}
+.tab {
+  overflow: hidden;
+}
+
+
+.tab button {
+  background-color: #4E9C81;
+  float: left;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 14px;
+  width: auto;
+    color: white;
+    border: none
+}
+
+
+.tab button:hover {
+  background-color: #8dc3a7;
+}
+
+
+.tab button.active {
+  background-color: #8dc3a7;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border:3px solid #4E9C81;
+}
+.s{
+    display: block;
+}
+.admin .box{
+    background: white;
+}
+
+
+/*----admin appointment page---*/
+
+.col5{
+    width: 25%;
+    padding: 5px;margin: auto;
+    
+}.col5 .bo{
+    width: 100%;
+    border: solid black;
+    padding: 10px;margin: auto;
+}
+.col5 h3{
+    text-align: center;
+}
+.col5 hr{
+    width: 100%;
+}
+.col5 h3 input{
+    width: 15px;
+}
+.adminApp tr,td{
+    border-bottom: 2px solid green;
+    text-align: left;
+    font-weight:bold;
+    padding: 5px 2px;
+}
+.adminApp input, .nodesign{
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 16px;
+    width: 180px;
+}
+.adminApp .nodesign{
+    text-align: left;
+    height: 50px;
+    resize: none;
+}
+.adminApp table{
+    margin-bottom: 20px;
+}
+.adminApp .reject{
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    resize: none;
+    padding: 5px;
+}
+.adminApp .height{
+    height: 40px;
+    top: 0;
+}
+.adminApp .container{
+    padding: 20px;
+}
+.col5 .btn{
+    width: 130px;
+    margin: 5px 0;
+    border: none;
+    font-size: 16px;
+}
+.adminApp .tabcontent{
+    min-height: 300px;
+}
+
+/*---about us---*/
+.about-us{
+    background-image: url(images/catframe.jpg);
+    min-height: 90vh
+}
+.about-us .container{
+    padding: 40px;
+    background: rgba(0,0,0,0.6);
+    min-height: 90vh
+}
+.about-us .box{
+    width: 60%;;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    text-indent: 30px;
+    text-align: justify;
+    border: solid #dfeae2;
+}
+.about-us h1{
+    text-align: center;
+}
+.about-us hr{
+    height: 5px;
+    border: none;
+    margin: 5px;
+    background-image: url(images/hr.jpg)
+}
+
+
+/*---menu----*/
+@media only screen and (max-width:1200px){
+    .column img{
+        height: 100px;
+        width: 200px;
+    }
+    .column{
+        width: 50%;
+        max-height: 400px;
+    }
+    .column .in p{
+        max-height: 150px;
+        overflow: hidden;
+        margin: 10px 0;
+        text-indent: 50px;
+    }
+    .profile .container{
+        width: 100%;
+    }
+    .profile .box{
+        width: 800px%;
+    }
+
+    .col5{
+        width: 50%;
+    }  
+}
+@media only screen and (max-width:1000px){
+    .service .content{
+        padding: 10px;
+        margin:50px;
+    }
+    .about-us{
+        height: auto;
+    }
+    
+}
+@media only screen and (max-width:800px){
+    nav ul{
+        position: absolute;
+        left:0;
+        background: rgba(51, 51, 51, 0.9);
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        z-index:1;
+        margin-top: 40px
+    }
+    
+    nav ul li:hover{
+        background: gray;
+    }
+    
+    nav ul li{
+        display: block;
+        margin:5px 20px;
+    }
+    
+    nav ul li a{
+        color:#fff;   
+    }
+    .headInfo {
+      min-height: 400px;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .row{
+        text-align: center;
+    }
+    .column{
+        width: 100%;
+    }
+    .column .in p{
+        max-height: 150px;
+        overflow: hidden;
+        margin: 10px 0;
+        text-indent: 50px;
+    }
+    .disclaimer{
+        height: auto;
+    }
+    .col2{
+        width: 100%;
+    }
+    .aMI a{
+        color: #fff;
+    }
+    .profile .container{
+        display: block;
+    }
+    .box{
+        width: 100%;
+    }
+    .appointment .info{
+        width: 100%;
+    }
+    .service .col3{
+        width: 100%;
+    }
+    .about-us .box{
+        width: 100%;
+    }
+    .appointment-list .container{
+        width: 100%;
+    }
+    .col5{
+        width: 100%;
+    }
+    .service .content{
+        padding: 10px;
+        margin:10px;
+    }
+    .profile .container{
+        margin: 0;
+    }
+
+}
